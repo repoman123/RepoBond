@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>.fx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Bound">
+      <UniqueIdentifier>{a5a9ff32-2cd7-4cba-b29e-493b47f61e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{640a330d-fa5d-4491-9be6-89bb45b48b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D">
+      <UniqueIdentifier>{85f77bb9-8796-4960-b784-7622854e6498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D">
+      <UniqueIdentifier>{c353fd7a-dc5e-4424-8dff-eef4c994d76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D">
+      <UniqueIdentifier>{2190fb2b-118b-445a-9d24-afec8df488c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D">
+      <UniqueIdentifier>{a26ee23a-e8f1-49ae-83f8-1091b8c2cd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bound">
+      <UniqueIdentifier>{0c737be6-8cfd-4110-8a9d-a51ab48a2996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{83063651-8d65-4638-a6e2-98811f594fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseObject">
+      <UniqueIdentifier>{7cbaf25d-80ba-4b92-81f2-cfc496427a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D\Controls">
+      <UniqueIdentifier>{144a81f2-593b-4ed0-b7a9-a7f7af104631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D\Controls">
+      <UniqueIdentifier>{35ff81bc-9555-4a4a-9113-9337870a6722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{3d73f05f-0728-4c26-9f7a-e7fb7f0835a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timerclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimChannel.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimKey.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="eFont.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShader.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Object2D.cpp">
+      <Filter>Source Files\2D\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="eLabel.cpp">
+      <Filter>Source Files\2D\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlManager.cpp">
+      <Filter>Source Files\2D\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="eText.cpp">
+      <Filter>Source Files\2D\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Bound.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animations.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBMP\EasyBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="eButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Source Files\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Source Files\Bound</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d10class.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Shaders.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="systemclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timerclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimChannel.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimKey.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="bound.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="etext.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="spriterenderer.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\2D\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>Header Files\2D\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="elabel.h">
+      <Filter>Header Files\2D\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="efont.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemenu.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="textshader.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlManager.h">
+      <Filter>Header Files\2D\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Regions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_BMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_DataStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_VariousBMPutilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Header Files\Bound</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d10class.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Shaders.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="networkmessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\texture.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\light.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\sprite.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Shaders\text.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\Bone.fx">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader-error.txt" />
+    <None Include="new engine.txt" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Shaders.fx" />
+  </ItemGroup>
+</Project>

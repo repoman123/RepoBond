@@ -1,0 +1,227 @@
+﻿Build started 2/9/2013 12:40:01 AM.
+     1>Project "C:\RepoBond\Engine\Engine\Engine.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Engine.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp Animations.cpp Animator.cpp AnimChannel.cpp AnimKey.cpp Base.cpp Bone.cpp Bot.cpp BoundRenderer.cpp EasyBMP\EasyBMP.cpp eButton.cpp Gun.cpp HeightMap.cpp HUD.cpp Level.cpp ModelLoader.cpp Player.cpp Quad.cpp Server.cpp D3D10Shaders.cpp Bound.cpp BoundingBox.cpp BoundingSphere.cpp Camera.cpp ControlManager.cpp cpuclass.cpp d3d10class.cpp eFont.cpp eLabel.cpp eText.cpp fpsclass.cpp Frustum.cpp GameMenu.cpp graphicsclass.cpp Light.cpp main.cpp material.cpp Mesh.cpp modelclass.cpp Object2D.cpp Ray.cpp SoundPlayer.cpp Sprite.cpp SpriteBatch.cpp SpriteRenderer.cpp SpriteShader.cpp systemclass.cpp TextShader.cpp TextureArray.cpp textureclass.cpp timerclass.cpp
+         timerclass.cpp
+         textureclass.cpp
+         TextureArray.cpp
+         TextShader.cpp
+         systemclass.cpp
+         SpriteShader.cpp
+         SpriteRenderer.cpp
+         SpriteBatch.cpp
+         Sprite.cpp
+         SoundPlayer.cpp
+         Ray.cpp
+         Object2D.cpp
+         modelclass.cpp
+         Mesh.cpp
+         material.cpp
+         main.cpp
+         Light.cpp
+         graphicsclass.cpp
+         GameMenu.cpp
+         Frustum.cpp
+         Generating Code...
+         Compiling...
+         fpsclass.cpp
+         eText.cpp
+         eLabel.cpp
+         eFont.cpp
+         d3d10class.cpp
+         cpuclass.cpp
+         ControlManager.cpp
+         Camera.cpp
+         BoundingSphere.cpp
+         BoundingBox.cpp
+         Bound.cpp
+         D3D10Shaders.cpp
+         Server.cpp
+     1>c:\repobond\engine\engine\server.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(80): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(100): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\repobond\engine\engine\server.cpp(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Quad.cpp
+         Player.cpp
+         ModelLoader.cpp
+     1>c:\repobond\engine\engine\modelloader.cpp(803): warning C4996: 'std::basic_string<_Elem,_Traits,_Ax>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(1555) : see declaration of 'std::basic_string<_Elem,_Traits,_Ax>::copy'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+         Level.cpp
+         HUD.cpp
+         HeightMap.cpp
+         Gun.cpp
+         Generating Code...
+         Compiling...
+         eButton.cpp
+         EasyBMP.cpp
+         BoundRenderer.cpp
+         Bot.cpp
+         Bone.cpp
+         Base.cpp
+         AnimKey.cpp
+         AnimChannel.cpp
+         Animator.cpp
+         Animations.cpp
+         Animation.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Engine.exe.embed.manifest.res" Debug\Engine_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RepoBond\Engine\Debug\Engine.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10.lib dxgi.lib libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Engine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\RepoBond\Engine\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\RepoBond\Engine\Debug\Engine.lib" /MACHINE:X86 Debug\Engine.exe.embed.manifest.res
+         Debug\Animation.obj
+         Debug\Animations.obj
+         Debug\Animator.obj
+         Debug\AnimChannel.obj
+         Debug\AnimKey.obj
+         Debug\Base.obj
+         Debug\Bone.obj
+         Debug\Bot.obj
+         Debug\BoundRenderer.obj
+         Debug\EasyBMP.obj
+         Debug\eButton.obj
+         Debug\Gun.obj
+         Debug\HeightMap.obj
+         Debug\HUD.obj
+         Debug\Level.obj
+         Debug\ModelLoader.obj
+         Debug\Player.obj
+         Debug\Quad.obj
+         Debug\Server.obj
+         Debug\D3D10Shaders.obj
+         Debug\Bound.obj
+         Debug\BoundingBox.obj
+         Debug\BoundingSphere.obj
+         Debug\Camera.obj
+         Debug\ControlManager.obj
+         Debug\cpuclass.obj
+         Debug\d3d10class.obj
+         Debug\eFont.obj
+         Debug\eLabel.obj
+         Debug\eText.obj
+         Debug\fpsclass.obj
+         Debug\Frustum.obj
+         Debug\GameMenu.obj
+         Debug\graphicsclass.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\material.obj
+         Debug\Mesh.obj
+         Debug\modelclass.obj
+         Debug\Object2D.obj
+         Debug\Ray.obj
+         Debug\SoundPlayer.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteRenderer.obj
+         Debug\SpriteShader.obj
+         Debug\systemclass.obj
+         Debug\TextShader.obj
+         Debug\TextureArray.obj
+         Debug\textureclass.obj
+         Debug\timerclass.obj
+       Manifest:
+         Deleting file "Debug\Engine.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Engine.exe.embed.manifest" /manifest Debug\Engine.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Engine.exe.embed.manifest.res" Debug\Engine_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RepoBond\Engine\Debug\Engine.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10.lib dxgi.lib libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Engine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\RepoBond\Engine\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\RepoBond\Engine\Debug\Engine.lib" /MACHINE:X86 Debug\Engine.exe.embed.manifest.res
+         Debug\Animation.obj
+         Debug\Animations.obj
+         Debug\Animator.obj
+         Debug\AnimChannel.obj
+         Debug\AnimKey.obj
+         Debug\Base.obj
+         Debug\Bone.obj
+         Debug\Bot.obj
+         Debug\BoundRenderer.obj
+         Debug\EasyBMP.obj
+         Debug\eButton.obj
+         Debug\Gun.obj
+         Debug\HeightMap.obj
+         Debug\HUD.obj
+         Debug\Level.obj
+         Debug\ModelLoader.obj
+         Debug\Player.obj
+         Debug\Quad.obj
+         Debug\Server.obj
+         Debug\D3D10Shaders.obj
+         Debug\Bound.obj
+         Debug\BoundingBox.obj
+         Debug\BoundingSphere.obj
+         Debug\Camera.obj
+         Debug\ControlManager.obj
+         Debug\cpuclass.obj
+         Debug\d3d10class.obj
+         Debug\eFont.obj
+         Debug\eLabel.obj
+         Debug\eText.obj
+         Debug\fpsclass.obj
+         Debug\Frustum.obj
+         Debug\GameMenu.obj
+         Debug\graphicsclass.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\material.obj
+         Debug\Mesh.obj
+         Debug\modelclass.obj
+         Debug\Object2D.obj
+         Debug\Ray.obj
+         Debug\SoundPlayer.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteRenderer.obj
+         Debug\SpriteShader.obj
+         Debug\systemclass.obj
+         Debug\TextShader.obj
+         Debug\TextureArray.obj
+         Debug\textureclass.obj
+         Debug\timerclass.obj
+         Engine.vcxproj -> C:\RepoBond\Engine\Debug\Engine.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Engine.unsuccessfulbuild".
+         Touching "Debug\Engine.lastbuildstate".
+     1>Done Building Project "C:\RepoBond\Engine\Engine\Engine.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:10.57
